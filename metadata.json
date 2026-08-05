@@ -1,0 +1,6 @@
+{
+  "name": "Ministranti Luhačovice",
+  "description": "Rozpis a zapisování služeb ministrantů Luhačovice s liturgickým kalendářem, administrací a statistikami.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

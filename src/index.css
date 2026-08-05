@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark-theme-disabled));
+
+:root {
+  color-scheme: light !important;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+@theme {
+  --color-farnost-50: #f4f9e6;
+  --color-farnost-100: #e5f1c4;
+  --color-farnost-200: #cce390;
+  --color-farnost-300: #afd157;
+  --color-farnost-400: #93bd2a;
+  --color-farnost-500: #749d10;
+  --color-farnost-600: #5a7d07;
+  --color-farnost-700: #4d6e00;
+  --color-farnost-800: #385200;
+  --color-farnost-900: #2b3e00;
+  --color-farnost-950: #172400;
+}
+
+/* Custom scrollbar for mobile friendly table scrolling */
+.overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Ensure mobile touch targets are at least 44px */
+.touch-target {
+  min-height: 44px;
+  min-width: 44px;
+}
